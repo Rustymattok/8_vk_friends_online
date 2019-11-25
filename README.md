@@ -1,17 +1,26 @@
 # Watcher of Friends Online
 
-[TODO. There will be project description]
+This script find all friends in user's vk account which are online. 
+And output friend's first name and second name which online.
+This script use api vk==2.0.2.
 
-# How to Install
+# Quick start
+The script requires installed Python 3 or higher.
 
-Python 3 should be already installed. Then use pip (or pip3 if there is a conflict with old Python 2 setup) to install dependencies:
+Put command (see below) and put your login and password of VK account.
 
 ```bash
-pip install -r requirements.txt # alternatively try pip3
+$ python vk_friends_online.py -l <login of vk account> -p <password of vk account>
 ```
-
-Remember, it is recommended to use [virtualenv/venv](https://devman.org/encyclopedia/pip/pip_virtualenv/) for better isolation.
-
+# The sample of result script
+```bash
+Алексей Богайчук
+Снежана Бирюзовая
+Светлана Клименко
+Дарья Серкова
+Александр Деев
+Таисия Ивченко
+```
 # Project Goals
 
 The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
